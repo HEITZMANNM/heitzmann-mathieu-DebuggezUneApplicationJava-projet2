@@ -30,8 +30,7 @@ public class ReadSymptomFromFile
 			// creat the file reader
 			FileReader reader = new FileReader(file);  
 			// creat the object BufferedReader        
-			BufferedReader br = new BufferedReader(reader);  
-			StringBuffer sb = new StringBuffer();    
+			BufferedReader br = new BufferedReader(reader);    
 			String line;
 
 			while((line = br.readLine()) != null)
