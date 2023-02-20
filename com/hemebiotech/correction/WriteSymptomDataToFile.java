@@ -20,7 +20,7 @@ public class WriteSymptomDataToFile
 	{
 		try {
       //the file which will receve the result
-			FileWriter writer = new FileWriter("results.out");
+			FileWriter writer = new FileWriter("result.ods");
 			
       //loop to allowed to write in the file, each element of the map line by line
 			for(String symptom : numberPerTypeOfSymptom.keySet())
