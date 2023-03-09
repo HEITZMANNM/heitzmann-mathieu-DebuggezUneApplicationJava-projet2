@@ -4,6 +4,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+/**Cette class permet de calculer le nombre de fois que chaque symptom apparait dans notre fichier de données*/
+
 public class CounterBySymptom 
 {
 	private List<String> listOfAllSymptomFromFile;

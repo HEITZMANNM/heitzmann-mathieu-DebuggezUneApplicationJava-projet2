@@ -4,8 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
 
+import com.hemebiotech.analytics.ISymptomWriter;
 
-public class WriteSymptomDataToFile 
+
+public class WriteSymptomDataToFile implements ISymptomWriter
 {
 	private Map<String, Integer> numberPerTypeOfSymptom;
 
@@ -16,7 +18,7 @@ public class WriteSymptomDataToFile
 
 	}
 
-	public void register()
+	public void write()
 	{
 		try {
       //the file which will receve the result

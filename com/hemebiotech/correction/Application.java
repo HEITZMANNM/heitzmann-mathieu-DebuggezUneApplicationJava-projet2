@@ -41,6 +41,6 @@ public class Application
 				//Recording the results of the count in the file result.ods
 				WriteSymptomDataToFile writeSymptomDataToFile = new WriteSymptomDataToFile(numberPerTypeOfSymptom);
 
-				writeSymptomDataToFile.register();	
+				writeSymptomDataToFile.write();	
 	}
 }
