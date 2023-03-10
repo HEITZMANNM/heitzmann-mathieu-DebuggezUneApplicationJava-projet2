@@ -3,7 +3,10 @@ package com.hemebiotech.correction;
 import java.util.List;
 import java.util.Map;
 
-//class wich allowed to organised each method
+/**
+Class which organised each method to obtaine the results of number of each symptoms in the file results.out
+*/
+
 public class Application 
 {
 

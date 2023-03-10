@@ -6,7 +6,11 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadSymptomFromFile 
+/**
+ *Class which read the data base file and implement a list with it
+ */
+
+public class ReadSymptomFromFile implements ISymptomReader
 {
 	private String symptomFile;
 	private List<String> listOfSymptom;

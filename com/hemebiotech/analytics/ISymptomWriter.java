@@ -10,6 +10,9 @@ import java.util.Map;
 public interface ISymptomWriter {
 // WRITE YOUR CODE HERE
 
+/**
+ *Method which write a map in the file results.out
+ */
 	public void write();
 
 }

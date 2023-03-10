@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+Class which remove duplicates symptoms from a list and creat a second list with a single copy of them
+*/
+
 public class RemoveDuplicates 
 {
 

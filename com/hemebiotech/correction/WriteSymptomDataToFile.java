@@ -6,6 +6,9 @@ import java.util.Map;
 
 import com.hemebiotech.analytics.ISymptomWriter;
 
+/**
+ *Class which write a map in the file results.out
+ */
 
 public class WriteSymptomDataToFile implements ISymptomWriter
 {
